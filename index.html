@@ -4,9 +4,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spatial TTS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .names {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        .media {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .media img {
+            width: 100px;
+            height: 100px;
+        }
+        audio {
+            margin: 0 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Spatial TTS!</h1>
-    <p>Please wait for our update.</p>
+
+    <!-- 第一行: 标题 -->
+    <h1>Spatial TTS Demo</h1>
+
+    <!-- 第二行: 5个名称 -->
+    <div class="names">
+        <p>Input</p>
+        <p>Ground Truth</p>
+        <p>Baseline</p>
+        <p>w/o SRE</p>
+        <p>Proposed</p>
+    </div>
+
+    <!-- 第三行: 第一个是图片, 其他是音频 -->
+    <div class="media">
+        <!-- 图片 -->
+        <img src="demo/input/11_3_label.jpg" alt="Image Description">
+        
+        <!-- 音频播放控件 -->
+        <audio controls>
+            <source src="demo/gt/o11.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/baseline/11_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/owsre/11_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/prop/11_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="media"></div>
+        <!-- 图片 -->
+        <img src="demo/input/17_0_label.jpg" alt="Image Description">
+        
+        <!-- 音频播放控件 -->
+        <audio controls>
+            <source src="demo/gt/o17.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/baseline/17_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/owsre/17_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/prop/17_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="media"></div>
+        <!-- 图片 -->
+        <img src="demo/input/21_1_label.jpg" alt="Image Description">
+        
+        <!-- 音频播放控件 -->
+        <audio controls>
+            <source src="demo/gt/o21.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/baseline/21_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/owsre/21_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/prop/21_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="media"></div>
+        <!-- 图片 -->
+        <img src="demo/input/80_0_label.jpg" alt="Image Description">
+        
+        <!-- 音频播放控件 -->
+        <audio controls>
+            <source src="demo/gt/o80.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/baseline/80_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/owsre/80_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/prop/80_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="media"></div>
+        <!-- 图片 -->
+        <img src="demo/input/82_1_label.jpg" alt="Image Description">
+        
+        <!-- 音频播放控件 -->
+        <audio controls>
+            <source src="demo/gt/o82.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/baseline/82_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/owsre/82_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/prop/82_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="media"></div>
+        <!-- 图片 -->
+        <img src="demo/input/6_0_label.jpg" alt="Image Description">
+        
+        <!-- 音频播放控件 -->
+        <audio controls>
+            <source src="demo/gt/o6.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/baseline/6_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/owsre/6_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="demo/prop/6_.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
 </body>
 </html>
